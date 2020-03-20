@@ -1,0 +1,13 @@
+   
+<footer class="footer bg-dark text-white">
+    <div class="container">
+        <div class="d-flex justify-content-center flex-wrap">
+            <div><small>Handcrafted with ❤️ by <a href="#">Renaud Gagne</a>&nbsp </small></div>
+            <div><small>Copyright © {{ dateFormat "2006" now }}</small></div>
+        </div>
+    </div>
+    {{ $scripts := resources.Get "js/bootstrap.bundle.js" }}
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" async></script>
+    <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}" async></script>
+</footer>

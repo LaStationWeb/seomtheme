@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "seom"
+relativeURLs = true
+
+[menu]
+    [[menu.mainmenu]]
+        identifier = "Home"
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.mainmenu]]
+        identifier = "About"
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+    [[menu.mainmenu]]
+        identifer = "Menu"
+        name = "Services"
+        url = "/services/"
+        weight = 3
+    
+    [[menu.mainmenu]]
+        identifier = "Contact"
+        name = "Contact Us"
+        url = "/contact/"
+        weight = 4
