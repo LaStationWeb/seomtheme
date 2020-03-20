@@ -1,6 +1,6 @@
  <head>
-    <title>{{ .Title }}</title>
-    <!-- Required meta tags -->
+    <title>{{if .IsHome}}{{ .Site.Title }}{{else}}{{.Title}}{{end}}</title>
+    <meta name="description" content="{{.Description}}" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}

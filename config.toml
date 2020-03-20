@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Seom Theme"
+description = "A Hugo Powered Minimalist Restaurant Theme"
 theme = "seom"
 relativeURLs = true
 

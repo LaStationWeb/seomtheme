@@ -1,5 +1,6 @@
 ---
 title: "Services"
+description: "This is the service page"
 layout: services
 ---
 
