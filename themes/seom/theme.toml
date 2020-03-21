@@ -6,16 +6,10 @@ license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
 homepage = "/"
-tags = []
+tags = [restaurant, minimalist]
 features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Renaud Gagne"
+  homepage = "https://github.com/LaStationWeb"

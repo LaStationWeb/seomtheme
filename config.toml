@@ -20,8 +20,8 @@ relativeURLs = true
 
     [[menu.mainmenu]]
         identifer = "Menu"
-        name = "Services"
-        url = "/services/"
+        name = "Menu"
+        url = "/menu/"
         weight = 3
     
     [[menu.mainmenu]]
