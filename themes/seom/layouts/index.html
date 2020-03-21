@@ -1,10 +1,30 @@
 {{ define "main" }}
-<div class="jumbotron">
+<section class="homepage">
   <div class="container">
-    <h1 class="display-4">{{.Site.Title}}</h1>
-    <img src="{{ $.Site.Params.logo }}">
-    <p class="lead">Here's some description stuff</p>
-    <p>There's also other things that are super nice</p>
-  </div>
+    <div class="row">
+      <div class="col-sm-5">
+        <img alt="Picture of {{.Site.Title}}" class="d-flex align-items-center rounded shadow" src="https://mlhcvmo3w5r9.i.optimole.com/L3iojw-an63NDyx/w:466/h:699/q:auto/https://www.seomrestaurant.com/wp-content/uploads/2020/02/jason-leung-eKZLpj7U0E-unsplash-scaled-e1582911079920.jpg">
+      </div>
+      <div class="col-sm-7 text-right">
+        <div class="d-flex justify-content-end">
+          <div class="flex-column lead">
+          <address>
+          <h1 class="display-6">{{.Site.Title}}</h1><br>
+          {{ $.Site.Params.address }}<br>
+          {{ $.Site.Params.city }}, {{ $.Site.Params.region }}, {{ $.Site.Params.postalcode }}<br>
+          <a href="+{{ $.Site.Params.city }}">{{ $.Site.Params.phone }}</a><br>
+          <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a>
+          </address>
+          <div class="d-flex justify-content-end">
+          <div class="divider">
+          </div>
+          </div>
+          <div style="width: 520px;">{{.Content}}</div>
+          </div>
+        </div>
+        </div>
+      </div>
 </div>
+</div>
+</section>
 {{ end }}

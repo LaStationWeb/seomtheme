@@ -10,12 +10,11 @@
         {{- partial "schema.html" . -}}
     </head> 
     <body>
-
         {{- partial "nav.html" . -}}
         {{- partial "header.html" . -}}
-        <div id="content">
+        <main id="content">
         {{- block "main" . }}{{- end }}
-        </div>
+        </main>
         {{- partial "footer.html" . -}}
     </body>
 </html>

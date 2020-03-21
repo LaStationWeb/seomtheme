@@ -1,0 +1,18 @@
+/* Overrides */
+.jumbotron {
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding-bottom: 2rem !important;
+}
+.nav-link:hover {
+    color:#dc3545 !important;
+}
+/* Site Wide */
+main {
+    margin-bottom: 100px !important;
+}
+.divider {
+    margin: 2rem 0 2.5rem 0;
+    width: 5rem;
+    border-bottom: 3px solid #dc3545;
+}
