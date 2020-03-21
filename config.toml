@@ -6,18 +6,19 @@ theme = "seom"
 relativeURLs = true
 
 [params]
-    /* Schema Information */
+    # Schema Information
     type = "Enter Your Cuisine"
-    pricerange = "Enter Your Price range 1 to 5"
-    reviewcount = "How many reviews you've got"
-    reviewvalue = "Average ratings on Yelp & Google"
-    openinghour = "Mo-Sa 11:00-22:00"
-    address = "Enter Address Here"
-    city = "Enter City"
-    region = "Enter State or Province HEre"
-    postalcode = "Enter Postal Code"
-    phone = "Enter Phone Number"
-    email = "Enter Your Email"
+    pricerange = "2" # Enter Your Price range 1 to 5
+    reviewcount = "5" # How many reviews you've got
+    reviewvalue = "4.5" # Average ratings on Yelp & Google
+    reservation = "true" # Do you accept reservations? Enter true or false
+    openinghour = "Mo-Sa 11:00-22:00" # Opening Hours
+    address = "123 Sample Street" # Enter Address Here
+    city = "Rigaud" # Enter City
+    region = "QC" # Enter State or Province Here
+    postalcode = "J0P 1P0" # Enter Postal Code
+    phone = "+1-123-456-7890" # Enter Phone Number
+    email = "info@lastationweb.ca" # Enter Your Email
     facebookurl = "https://www.facebook.com/lastationweb"
     instagram = "https://instagram.com/lastationweb"
     logo = "logo.png"
