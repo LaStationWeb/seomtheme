@@ -5,6 +5,24 @@ description = "A Hugo Powered Minimalist Restaurant Theme"
 theme = "seom"
 relativeURLs = true
 
+[params]
+    /* Schema Information */
+    type = "Enter Your Cuisine"
+    pricerange = "Enter Your Price range 1 to 5"
+    reviewcount = "How many reviews you've got"
+    reviewvalue = "Average ratings on Yelp & Google"
+    openinghour = "Mo-Sa 11:00-22:00"
+    address = "Enter Address Here"
+    city = "Enter City"
+    region = "Enter State or Province HEre"
+    postalcode = "Enter Postal Code"
+    phone = "Enter Phone Number"
+    email = "Enter Your Email"
+    facebookurl = "https://www.facebook.com/lastationweb"
+    instagram = "https://instagram.com/lastationweb"
+    logo = "logo.png"
+
+
 [menu]
     [[menu.mainmenu]]
         identifier = "Home"
