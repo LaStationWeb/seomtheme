@@ -1,6 +1,8 @@
 <script type="application/ld+json"> {
     "@context" : "http://schema.org",
     "@type" : "Restaurant",
+    "telephone":"{{ $.Site.Params.phone }}",
+    "image": "{{ $.Site.Params.logo }}"
     "address" : {
         "@type": "PostalAddress",
         "addressLocality": "{{ $.Site.Params.city }}",
@@ -19,7 +21,7 @@
     "reviewCount":"{{ $.Site.Params.reviewcount }}"},
     "priceRange":"{{ $.Site.Params.pricerange }}",
     "servesCuisine": ["{{ $.Site.Params.type }}"],"acceptsReservations":"true",
-    "menu":"{{.Site.BaseURL}}/menu",
+    "menu":"{{.Site.BaseURL}}menu",
     "paymentAccepted":"Visa, Master Card, Amex"
     }
 </script>

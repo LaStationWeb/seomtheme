@@ -7,7 +7,7 @@ relativeURLs = true
 
 [params]
     # Schema Information
-    type = "Enter Your Cuisine"
+    type = "Korean" # Enter Your Type of Cuisine
     pricerange = "2" # Enter Your Price range 1 to 5
     reviewcount = "5" # How many reviews you've got
     reviewvalue = "4.5" # Average ratings on Yelp & Google
@@ -21,7 +21,7 @@ relativeURLs = true
     email = "info@lastationweb.ca" # Enter Your Email
     facebookurl = "https://www.facebook.com/lastationweb"
     instagram = "https://instagram.com/lastationweb"
-    logo = "logo.png"
+    logo = "img/logo.jpg"
 
 
 [menu]
